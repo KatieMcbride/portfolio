@@ -6,9 +6,9 @@ import Overlay from "../Overlay/Overlay"
       render() {
         return (
           <nav>
-        <p>Katie McBride</p>
-        < Overlay />
-        </nav>
+            <p>Katie McBride</p>
+            < Overlay />
+          </nav>
         )
       }
 }
