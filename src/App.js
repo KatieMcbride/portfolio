@@ -4,6 +4,9 @@ import './App.css';
 import NavBar from "./components/NavBar/NavBar"
 import Main from "./components/Main/Main"
 import Intro from "./components/Intro/Intro"
+import Projects from "./components/Projects/Projects"
+import Typewriter from './components/typewriter/Typewriter';
+import Contact from "./components/Contact/Contact"
 
 
 function App() {
@@ -12,6 +15,9 @@ function App() {
       <NavBar />
       <Main />
       <Intro />
+      <Projects />
+      <Typewriter />
+      <Contact />
     </div>
   );
 }
