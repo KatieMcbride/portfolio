@@ -1,0 +1,159 @@
+nav{
+    width: 90%;
+    text-align: center;
+    height: 120px;
+    letter-spacing: 0.8px;
+    display: flex;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'GTWalsheim', sans-serif;
+    padding-top: 60px;
+}
+
+nav p {
+  flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+nav p:nth-child(1) {
+    text-align: left;
+}
+
+nav p:nth-child(2) {
+    text-align: right;
+}
+
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    color: black;
+
+}
+
+.aboutMe{
+    font-family: 'GTWalsheim', sans-serif;
+    font-size: 60px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #fea49f;
+}
+
+.aboutMeI{
+    font-family: 'GTWalsheim', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    text-align: left;
+}
+
+header, footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+}
+
+h1{
+    display: block;
+}
+
+header h1 {
+    font-family: 'GTWalsheim', sans-serif;
+    width: 100%;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: calc(100px + (200 - 100) * ((100vw - 300px) / (1920 - 300)));
+    line-height: calc(100px + (200 - 100) * ((100vw - 300px) / (1920 - 300)));
+    z-index: 2;
+} 
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* OVERLAY
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  background-color: #fff5d7;
+  background-color: #101357;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay p {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay p:hover, .overlay a:focus {
+  color: #b4afaf;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+} */
+
+.white {
+  color: #FFFFFF;
+}
+
+.overlay {
+  background-color: rgba(200, 50, 128, 0.95);
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@keyframes overlay-anim {
+  from {
+    opacity: 0;
+  }
+  to { 
+    opacity: 1;
+  }
+}
+
+.overlay-anim {
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+  animation-name: overlay-anim;
+  opacity: 0;
+}
