@@ -21,7 +21,7 @@ class Overlay extends React.Component {
     render() {
       return (
         <div>
-          <button className="btn btn-primary btn-wide" onClick={this.openOverlay}>Click Me</button>
+          <span className="nav-link" onClick={this.openOverlay}>About Me</span>
           {this.state.overlay &&
             <Portal>
               <OverlayContent closeOverlay={this.closeOverlay} />
