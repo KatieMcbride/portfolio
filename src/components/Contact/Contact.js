@@ -9,6 +9,7 @@ class Contact extends React.Component {
             <p class= "nav-link contact"><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/katiebmcbride/">  LinkedIn</a></p>
             <p class="nav-link contact"><i class="fab fa-github"></i><a href="https://github.com/KatieMcbride">  Github</a></p>
             <p class="nav-link contact"><i class="fas fa-mail-bulk"></i><a href="mailto:mcbride.katieb@gmail.com? subject=Let's Chat">  mcbride.katieb@gmail.com</a></p>
+            <p class="nav-link contact"><i class="fas fa-file"></i><a href="./PENN RESUME.pdf">  Resume</a></p>
         </div>
        
       )

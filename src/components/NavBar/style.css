@@ -115,7 +115,7 @@ a{
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
+  top: 5px;
   right: 45px;
   font-size: 60px;
   z-index: 4;
@@ -136,7 +136,7 @@ a{
 }
 
 .overlay {
-  background-color: rgba(200, 50, 128, 0.95);
+  background-color: #ECCEC3;
   display: block;
   height: 100%;
   left: 0;
