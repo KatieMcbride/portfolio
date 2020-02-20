@@ -10,4 +10,17 @@
     margin-bottom: 50px;
     color: #fbaf08;
 }
+
+.contact-2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    font-family: 'GTWalsheim', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:40px;
+    color: #fbaf08;
+}
   

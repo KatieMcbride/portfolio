@@ -7,19 +7,13 @@ import Intro from "./components/Intro/Intro"
 import Projects from "./components/Projects/Projects"
 import Typewriter from './components/typewriter/Typewriter';
 import Contact from "./components/Contact/Contact"
-import Footer from "./components/Footer/Footer"
 
 
 function App() {
   return (
     <div>
       <NavBar />
-      <Main />
-      <Intro />
-      <Projects />
-      <Typewriter />
-      <Contact />
-      <Footer />
+    
     </div>
   );
 }
