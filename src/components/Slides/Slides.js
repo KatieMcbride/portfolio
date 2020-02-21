@@ -6,10 +6,10 @@ import FitBoard from "./FitBoard.png"
 function Slides (props) {
       return (
         <section className="projects">
-              <div className="slider">
+              {/* <div className="slider">
                 <div className="slide" id="slide-1"> 
                     <section className="cards-wrapper">
-                        <div className="card-grid-space">
+                        <div className="card-grid-space"> */}
                             <div className="num">{props.id}</div>
                                 <a className="card" href="https://fitboardathletic.herokuapp.com/" >
                                     <div>
@@ -22,10 +22,10 @@ function Slides (props) {
                                       </div> 
                                     </div>
                                 </a>
-                        </div>
+                        {/* </div>
                     </section>
                     </div>
-                </div>
+                </div> */}
         </section>    
       )
 }

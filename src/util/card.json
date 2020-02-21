@@ -13,7 +13,7 @@
         "info": "Find a brewery, plan out your beer crawl, map it out.",
         "date": "Nov 2019",
         "tag": "API",
-        "image": "https://i.imgur.com/r81xvZ1.png"
+        "image": "https://i.imgur.com/l7ihjkw.jpg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "info": "Plan your day by the hour and save your to-dos.",
         "date": "Oct 2019",
         "tag": "Local Storage",
-        "image": "https://i.imgur.com/r81xvZ1.png"
+        "image": "https://i.imgur.com/CqroomA.png"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "info": "List of top Chicago Restaraunts",
         "date": "Sep 2019",
         "tag": "BootStrap",
-        "image": "https://i.imgur.com/r81xvZ1.png"
+        "image": "https://i.imgur.com/ZpRQPWf.png"
     }
 
 ]

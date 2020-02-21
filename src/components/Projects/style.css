@@ -1,7 +1,11 @@
 .projects{
     background-color:  #007f4f;
+    
 }
 
+.slides{
+    display: flex;
+}
 h2{
     color: white;
     font-family: 'GTWalsheim', sans-serif;
