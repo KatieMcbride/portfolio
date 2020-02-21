@@ -8,7 +8,13 @@ class Projects extends React.Component {
       return (
         <section className="projects">
             <h2>Recent Projects</h2>
-            <Slides />
+            {/* Loop through array of Projects then pass in project object into slide. For each loop */}
+            {cardData.map(function(card, index){
+                    return <Slides id={card.id} name={card.name} info={card.info} date={card.date} tag={card.tag} image={card.image}/>;
+                  })}
+           {cardData.id}
+           
+           
         </section>    
       )
     }

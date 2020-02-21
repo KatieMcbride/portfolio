@@ -4,28 +4,32 @@
         "name": "FitBoard",
         "info": "Compete against your friends with this social media style Fitness Tracker",
         "date": "Jan 2020",
-        "tag": "SQL"
+        "tag": "SQL",
+        "image": "https://i.imgur.com/r81xvZ1.png"
     },
     {
         "id": 2,
         "name": "BeerHunter",
         "info": "Find a brewery, plan out your beer crawl, map it out.",
         "date": "Nov 2019",
-        "tag": "API"
+        "tag": "API",
+        "image": "https://i.imgur.com/r81xvZ1.png"
     },
     {
         "id": 3,
         "name": "Work Scheduler",
         "info": "Plan your day by the hour and save your to-dos.",
         "date": "Oct 2019",
-        "tag": "Local Storage"
+        "tag": "Local Storage",
+        "image": "https://i.imgur.com/r81xvZ1.png"
     },
     {
         "id": 4,
         "name": "Chicago Food Guide",
         "info": "List of top Chicago Restaraunts",
         "date": "Sep 2019",
-        "tag": "BootStrap"
+        "tag": "BootStrap",
+        "image": "https://i.imgur.com/r81xvZ1.png"
     }
 
 ]
