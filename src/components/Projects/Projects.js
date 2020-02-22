@@ -1,8 +1,10 @@
 import React from "react";
 import "./style.css";
-import Slides from "../Slides/Slides"
-import cardData from "../../util/card.json"
 import FitBoard from "./FitBoard.png"
+import Beer from "./Beer Hunter.jpg"
+import Chicago from "./Chicago food guide.png"
+import Work from "./Work Schedule.png"
+
 
 class Projects extends React.Component {
     render = () => {
@@ -19,11 +21,11 @@ class Projects extends React.Component {
                                 <a className="card" href="https://fitboardathletic.herokuapp.com/" >
                                     <div>
                                       <img className="slide-img" src={FitBoard}></img>
-                                      <h1>asf</h1>
-                                      <p>r</p>
-                                      <div className="date">1</div>
+                                      <h1>FitBoard</h1>
+                                      <p>Compete against your friends with this social media style Fitness Tracker</p>
+                                      <div className="date">Jan 2020</div>
                                       <div className="tags">
-                                      <div className="tag">1</div> 
+                                      <div className="tag">SQL</div> 
                                       </div> 
                                     </div>
                                 </a>
@@ -38,14 +40,14 @@ class Projects extends React.Component {
                     <section className="cards-wrapper">
                         <div className="card-grid-space">
                             <div className="num">2</div>
-                                <a className="card" href="https://fitboardathletic.herokuapp.com/" >
+                                <a className="card" href="https://beerhunter.pub/" >
                                     <div>
-                                      <img className="slide-img"></img>
-                                      <h1>asf</h1>
-                                      <p>r</p>
-                                      <div className="date">1</div>
+                                      <img className="slide-img" src={Beer}></img>
+                                      <h1>BeerHunter</h1>
+                                      <p>Find a brewery, plan out your beer crawl, map it out.</p>
+                                      <div className="date">Nov 2019</div>
                                       <div className="tags">
-                                      <div className="tag">1</div> 
+                                      <div className="tag">API</div> 
                                       </div> 
                                     </div>
                                 </a>
@@ -61,14 +63,14 @@ class Projects extends React.Component {
                     <section className="cards-wrapper">
                         <div className="card-grid-space">
                             <div className="num">3</div>
-                                <a className="card" href="https://fitboardathletic.herokuapp.com/" >
+                                <a className="card" href="https://katiemcbride.github.io/work-day-scheduler/" >
                                     <div>
-                                      <img className="slide-img"></img>
-                                      <h1>asf</h1>
-                                      <p>r</p>
-                                      <div className="date">1</div>
+                                      <img className="slide-img" src={Work}></img>
+                                      <h1>Work Scheduler</h1>
+                                      <p>Plan your day by the hour and save your to-dos.</p>
+                                      <div className="date">Oct 2019</div>
                                       <div className="tags">
-                                      <div className="tag">1</div> 
+                                      <div className="tag">Local Storage</div> 
                                       </div> 
                                     </div>
                                 </a>
@@ -83,14 +85,14 @@ class Projects extends React.Component {
                     <section className="cards-wrapper">
                         <div className="card-grid-space">
                             <div className="num">4</div>
-                                <a className="card" href="https://fitboardathletic.herokuapp.com/" >
+                                <a className="card" href="https://katiemcbride.github.io/HW2/" >
                                     <div>
-                                      <img className="slide-img"></img>
-                                      <h1>asf</h1>
-                                      <p>r</p>
-                                      <div className="date">1</div>
+                                      <img className="slide-img" src={Chicago}></img>
+                                      <h1>Chicago Food Guide</h1>
+                                      <p>List of top Chicago Restaraunts</p>
+                                      <div className="date">Sep 2019</div>
                                       <div className="tags">
-                                      <div className="tag">1</div> 
+                                      <div className="tag">Bootstrap</div> 
                                       </div> 
                                     </div>
                                 </a>
